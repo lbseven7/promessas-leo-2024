@@ -1,0 +1,15 @@
+A ideia aqui é ter uma interface simples com quatro
+inputs e um botão para adicionar os textos. 
+Após adicionado o texto aparece em um card na tela 
+e os valores digitados são armazenados no db.json
+
+Esta aplicação está utilizando o json server 
+para registrar os textos que são inseridos via interface.
+Para colocar a aplicação no ar vá ao terminal e ative 
+o servidor json com o seguinte comando: 
+
+json-server --watch db.json --port 3000
+
+Para estilização estou usando o TailwindCSS.
+Temos um index.html para a estruturação e um app.js 
+para api e funções de interação.
