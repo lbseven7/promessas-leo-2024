@@ -1,0 +1,27 @@
+# Dependências do Node.js
+node_modules/
+
+# Arquivos de log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Configurações do editor de texto/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Arquivos de build do TailwindCSS (se aplicável)
+public/
+dist/
+*.css.map
+
+# Outros
+.env
+db.json
+
