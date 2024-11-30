@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeria da Memória</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="">
+  <div class="container mx-auto p-8">
+    <h1 class="text-3xl text-white font-bold mb-8">Galeria da Memória</h1>
+    <!-- Formulário para adicionar uma nova promessa -->
+    <form id="add-promise-form" class="mb-8">
+      <div class="grid grid-cols-2 gap-4">
+        <input type="text" id="text" name="text" placeholder="Texto da Promessa" class="p-2 border border-gray-300 rounded">
+        <input type="text" id="book" name="book" placeholder="Livro" class="p-2 border border-gray-300 rounded">
+        <input type="number" id="chapter" name="chapter" placeholder="Capítulo" class="p-2 border border-gray-300 rounded">
+        <input type="number" id="versPag" name="versPag" placeholder="Versículo/Página" class="p-2 border border-gray-300 rounded">
+      </div>
+      <button type="submit" class="mt-4 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">Adicionar Promessa</button>
+    </form>
+
+    <!-- Container para exibir as promessas -->
+    <div id="promises-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <!-- Cards das promessas serão adicionados aqui dinamicamente -->
+    </div>
+    <audio autoplay loop>
+      <source src="./perfect-beauty-191271.mp3" type="audio/mpeg">
+      Seu navegador não suporta o elemento de áudio.
+    </audio>
+  </div>
+  
+
+  <script src="./app.js" defer crossorigin="anonymous"></script>
+  <script src="./script.js" defer></script>
+</body>
+</html>
