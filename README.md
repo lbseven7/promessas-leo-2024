@@ -1,7 +1,5 @@
-Aqui está um exemplo de um arquivo `README.md` para sua aplicação:
-
 ```markdown
-# Interface Simples para Registro de Textos
+# Registro de Textos
 
 Esta aplicação é uma interface simples para registrar textos, com quatro inputs e um botão para adicionar novos textos. Os textos adicionados aparecem em cards na tela, e os valores digitados são armazenados no arquivo `db.json` utilizando o **JSON Server** como backend.
 
@@ -20,8 +18,8 @@ Esta aplicação é uma interface simples para registrar textos, com quatro inpu
 
 1. **Clone o repositório**:
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
-   cd seu-repositorio
+   git clone https://github.com/lbseven7/promessas-leo-2024.git
+   cd promessas-leo-2024
    ```
 
 2. **Instale o JSON Server** (caso ainda não tenha):
